@@ -31,8 +31,8 @@ public class Bird : MonoBehaviour
         // verifica pozitia si vezi daca pozitia fiecarui frame a iesit din limita acceptabila a bounds
         if (transform.position.y > 10 ||
             transform.position.y < -10 ||
-            transform.position.x > 10 ||
-            transform.position.x < -10 ||
+            transform.position.x > 12 ||
+            transform.position.x < -13 ||
             _timeSittingAround > 3)
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
